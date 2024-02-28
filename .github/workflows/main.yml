@@ -31,9 +31,6 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job.
     steps:
 
-    # Steps represent a sequence of tasks that will be executed as part of the job.
-    steps:
-
     # Set a PATH in this environment.
     - name: Set a path
       run: echo "/home/goda/opt/app/cpptest:/home/goda/opt/app/cpptest/bin" >> $GITHUB_PATH
